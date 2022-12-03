@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.my-logo {
+  width: 76px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.my-menu {
+  cursor: pointer;
+  user-select: none;
+}
+
+h1 {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+p {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+a {
+  width: 117px;
+  height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+section {
+  padding: 12px;
+  position: absolute;
+  width: 462px;
+  height: 587.15px;
+  background-image: url('background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-bottom-left-radius: 70px;
+}
+
+.socialnetworks {
+  display: flex;
+  list-style: none;
+  padding-left: 0%;
+  gap: 20px;
+}
+
+button {
+  border: 1px solid purple;
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: white;
+  color: purple;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
+
+button:active {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+button:disabled {
+  border: 1px solid gray;
+  color: gray;
+}
+
+button:disabled:hover {
+  border: 1px solid gray;
+  color: gray;
+  background: white;
+}

@@ -17,12 +17,12 @@ To get a local copy up and running follow these simple steps:
 
 ## Authors
 
-👤 **Mladan**
+?? **Mladan**
 
 - GitHub: [@djo1975](https://github.com/djo1975)
 
 
-## 🤝 :raised_hand: :raised_hand: Contributions
+## ?? :raised_hand: :raised_hand: Contributions
 
 Contributions, issues, and feature requests are welcome!
 
@@ -32,6 +32,6 @@ Feel free to check the [issues page]([https://github.com/ArthurGC/portfolio-micr
 
 - Thanks to Microverse
 
-## 📝 License
+## ?? License
 
 This project is [MIT](LICENSE) licensed.

@@ -1,0 +1,120 @@
+.portofolio-img {
+  width: 295px;
+  height: 220px;
+  background-image: url("my-works.svg");
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+  .container {
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    margin-top: 50px;
+  }
+
+  .project-title {
+    margin-bottom: 0%;
+  }
+
+  .c-b-2015 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  h6 {
+    color: #344563;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .c-b-2015-ul {
+    display: flex;
+    gap: 30px;
+    color: #7a869a;
+  }
+
+  .prog-lang {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    padding-left: 0%;
+  }
+
+  .prog-lang li {
+    background: #ebebff;
+    border-radius: 8px;
+    align-items: center;
+    padding: 4px 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+  }
+  
+  .button {
+    width: 100px;
+    height: 24px;
+    padding: 16px;
+    gap: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    text-decoration: none;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .portofolio-img-2 {
+    background-image: url("portofolio-img-2.svg");
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .portofolio-img-3 {
+    background-image: url("portofolio-img-3.svg");
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .portofolio-img-4 {
+    background-image: url("portofolio-img-4.svg");
+    width: 295px;
+    height: 220px;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 10px;
+  }

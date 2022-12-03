@@ -1,0 +1,49 @@
+.resume-btn {
+  position: absolute;
+  width: 375px;
+  height: 1263px;
+  left: 375px;
+  top: 4769px;
+  background: #ffffff;
+  transform: rotate(-180deg);
+}
+
+.socialnetworks {
+  display: flex;
+  list-style: none; 
+  padding-left: 0%;
+  gap: 20px;
+}
+
+a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+p {
+ width: 327px;
+ height: 144px;
+ font-family: 'Poppins';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ color: #344563;
+ flex: none;
+ order: 1;
+ flex-grow: 0;
+}
+
+.languages {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
