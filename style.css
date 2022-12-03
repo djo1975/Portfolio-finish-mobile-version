@@ -123,4 +123,5 @@ button:disabled {
 button:disabled:hover {
   border: 1px solid gray;
   color: gray;
-  background: white;}
+  background: white;
+}
