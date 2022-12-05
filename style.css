@@ -134,11 +134,11 @@ a {
 }
 
 button {
-  border: 1px solid purple;
+  border: 1px #396df2;
   border-radius: 5px;
   padding: 5px 20px;
   background-color: white;
-  color: #396df2;
+  color: purple;
   cursor: pointer;
 }
 
