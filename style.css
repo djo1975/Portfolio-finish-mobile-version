@@ -3,12 +3,15 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e5e5e5;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   padding: 12px;
+  background-color: #fff;
 }
 
 .my-logo {
@@ -65,17 +68,12 @@ h2 {
 }
 
 p {
-  width: 327px;
-  height: 146px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 a {
@@ -92,16 +90,15 @@ a {
   flex-grow: 0;
 }
 
-section {
+#introduction {
   padding: 12px;
-  position: absolute;
-  width: 462px;
-  height: 587.15px;
   background-image: url('img/background.svg');
-  background-size: cover;
+  background-size: 94%;
   background-repeat: no-repeat;
   background-color: white;
   border-bottom-left-radius: 70px;
+  height: 80vh;
+  width: 100%;
 }
 
 .socialnetworks {
@@ -182,7 +179,6 @@ button:disabled:hover {
   font-family: 'Poppins', sans-serif;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 100px;
 }
 
 .items {
@@ -240,25 +236,18 @@ h6 {
 }
 
 .button {
-  width: 100px;
-  height: 24px;
   padding: 16px;
-  gap: 12px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
   text-decoration: none;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  order: 0;
-  flex-grow: 0;
 }
 
 .portofolio-img-2 {
@@ -303,17 +292,12 @@ h6 {
 }
 
 .button-resume {
-  width: 140px;
-  height: 24px;
   padding: 16px;
-  gap: 12px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
