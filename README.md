@@ -14,13 +14,30 @@ To get a local copy up and running follow these simple steps:
 - Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
-## Getting Started
-Setup
+computer Getting Started
+Describe how a new developer could make use of your project.
+## 💻: Get Started
+To get a local copy up and running, follow these steps.
+
 Prerequisites
+In order to run this project you need:
+
+Setup
+Clone this repository to your desired folder:
+
 Install
+Install this project with:
+
 Usage
+To run the project, execute the following command:
+
 Run tests
+To run tests, run the following command:
+
 Deployment
+You can deploy this project using:
+
+(back to top)
 ## Authors
 
 ?? **Mladan**
