@@ -16,7 +16,7 @@ To get a local copy up and running follow these simple steps:
 - Use images and backgrounds to enhance the look of the website.
 computer Getting Started
 Describe how a new developer could make use of your project.
-## 💻: Get Started
+## 💻 Get Started
 To get a local copy up and running, follow these steps.
 
 Prerequisites
