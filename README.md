@@ -14,7 +14,13 @@ To get a local copy up and running follow these simple steps:
 - Flexbox to place elements in the page.
 - Build a personal portfolio site.
 - Use images and backgrounds to enhance the look of the website.
-
+## Getting Started
+Setup
+Prerequisites
+Install
+Usage
+Run tests
+Deployment
 ## Authors
 
 ?? **Mladan**
