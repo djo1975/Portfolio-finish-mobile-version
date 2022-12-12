@@ -215,9 +215,9 @@ h6 {
 }
 
 .prog-lang {
-  display: flex;
+  /* display: flex; */
   list-style: none;
-  gap: 5px;
+  /* gap: 5px; */
   padding-left: 0%;
 }
 
@@ -233,6 +233,8 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  float: left;
+  margin-left: 5px;
 }
 
 .button {
