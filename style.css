@@ -19,6 +19,7 @@ header {
   font-size: 40px;
   line-height: 52px;
 }
+
 .intro {
   position: relative;
   top: -110px;
@@ -40,6 +41,7 @@ header {
   line-height: 24px;
   color: #7F8CFF;
 }
+
 .my-logo {
   position: relative;
   top: 12px;
@@ -66,10 +68,11 @@ header {
 }
 
 .let-con {
-position: relative;
-left: 23px;
-top: 80px;
+  position: relative;
+  left: 23px;
+  top: 80px;
 }
+
 .my-menu {
   position: relative;
   left: -10px;
@@ -167,16 +170,19 @@ a {
   font-size: 24px;
   color: #000;
 }
+
 .socialnetworks1 {
   position: relative;
   bottom: 200px;
   gap: 26px;
 }
+
 .flex-item {
   position: relative;
   bottom: 106px;
   gap: 26px;
 }
+
 button {
   border: 2px #396df2;
   border-radius: 5px;
@@ -210,7 +216,6 @@ button:disabled:hover {
 
 .portofolio-img {
   width: 100%;
-
 }
 
 h5 {
@@ -219,13 +224,14 @@ h5 {
   font-family: 'Poppins';
   font-size: 32px;
   color: #172B4D;
-
 }
+
 .container {
   font-family: 'Poppins', sans-serif;
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .canopy {
   font-family: 'Poppins';
   text-decoration: none;
@@ -235,6 +241,7 @@ h5 {
   line-height: 16px;
   color: #344563;
 }
+
 .bed {
   font-family: 'Poppins';
   text-decoration: none;
@@ -290,22 +297,26 @@ h5 {
   border-radius: 16px;
   margin-top: 50px;
 }
+
 .others-arrow-1{
   position: relative;
   left: -181px;
   top: -159px;
   transform: rotate(-0.25turn);
 }
+
 .others-arrow-2{
   position: relative;
   left: -63px;
   top: -166px;
   transform: rotate(-0.25turn);
 }
+
 .c-b-2015 {
   position: relative;
   bottom: 120px;
 }
+
 .others-item-1 {
   position: relative;
   top: -160px;
@@ -334,6 +345,7 @@ h5 {
   width: 345px;
   background: #DFE1E6;
 }
+
 .a-day {
   position: relative;
   top: -139px;
@@ -341,6 +353,7 @@ h5 {
   font-size: 15px;
   color: #344563;
 }
+
 h6 {
   color: #344563;
   font-weight: 600;
@@ -357,15 +370,17 @@ h6 {
   position: relative;
   bottom: 150px;
 }
+
 .year {
   text-decoration: none;
   font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #7A869A;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7A869A;
 }
+
 .prog-lang li {
   background: #ebebff;
   border-radius: 8px;
@@ -463,6 +478,7 @@ color: #7A869A;
  order: 0;
  flex-grow: 0;
 }
+
 .languages-section {
   position: relative;
   top: -150px;
