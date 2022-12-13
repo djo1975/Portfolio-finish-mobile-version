@@ -14,16 +14,15 @@ header {
   background-color: #fff;
 }
 
-.omeni {
+.omeni{
   padding-top: 220px;
   font-size: 40px;
   line-height: 52px;
 }
-
 .intro {
   position: relative;
   top: -110px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -34,14 +33,13 @@ header {
 .cone {
   position: relative;
   top: -110px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #7F8CFF;
 }
-
 .my-logo {
   position: relative;
   top: 12px;
@@ -68,11 +66,10 @@ header {
 }
 
 .let-con {
-  position: relative;
-  left: 23px;
-  top: 80px;
+position: relative;
+left: 23px;
+top: 80px;
 }
-
 .my-menu {
   position: relative;
   left: -10px;
@@ -170,19 +167,16 @@ a {
   font-size: 24px;
   color: #000;
 }
-
 .socialnetworks1 {
   position: relative;
   bottom: 200px;
   gap: 26px;
 }
-
 .flex-item {
   position: relative;
   bottom: 106px;
   gap: 26px;
 }
-
 button {
   border: 2px #396df2;
   border-radius: 5px;
@@ -216,24 +210,24 @@ button:disabled:hover {
 
 .portofolio-img {
   width: 100%;
+
 }
 
 h5 {
   position: relative;
   top: -50px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-size: 32px;
-  color: #172b4d;
-}
+  color: #172B4D;
 
+}
 .container {
   font-family: 'Poppins', sans-serif;
   padding-left: 10px;
   padding-right: 10px;
 }
-
 .canopy {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
@@ -241,9 +235,8 @@ h5 {
   line-height: 16px;
   color: #344563;
 }
-
 .bed {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
@@ -297,46 +290,40 @@ h5 {
   border-radius: 16px;
   margin-top: 50px;
 }
-
-.others-arrow-1 {
+.others-arrow-1{
   position: relative;
   left: -181px;
   top: -159px;
   transform: rotate(-0.25turn);
 }
-
-.others-arrow-2 {
+.others-arrow-2{
   position: relative;
   left: -63px;
   top: -166px;
   transform: rotate(-0.25turn);
 }
-
 .c-b-2015 {
   position: relative;
   bottom: 120px;
 }
-
 .others-item-1 {
   position: relative;
   top: -160px;
   height: 1px;
   left: 15px;
 }
-
 .others-arrow {
   position: relative;
   top: -160px;
   height: 1px;
 }
-
 .line {
   position: relative;
   right: 655px;
   top: -224px;
   height: 1px;
   width: 345px;
-  background: #dfe1e6;
+  background: #DFE1E6;
 }
 
 .line1 {
@@ -345,9 +332,8 @@ h5 {
   top: -53px;
   height: 1px;
   width: 345px;
-  background: #dfe1e6;
+  background: #DFE1E6;
 }
-
 .a-day {
   position: relative;
   top: -139px;
@@ -355,7 +341,6 @@ h5 {
   font-size: 15px;
   color: #344563;
 }
-
 h6 {
   color: #344563;
   font-weight: 600;
@@ -372,21 +357,15 @@ h6 {
   position: relative;
   bottom: 150px;
 }
-
 .year {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  display: flex;
-  list-style: none;
-  gap: 5px;
-  padding-left: 0%;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #7A869A;
 }
-
 .prog-lang li {
   background: #ebebff;
   border-radius: 8px;
@@ -399,8 +378,6 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
-  float: left;
-  margin-left: 5px;
 }
 
 .button {
@@ -479,14 +456,13 @@ h6 {
 
 .js {
   width: 333px;
-  height: 66.72px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+ height: 66.72px;
+ background: #F7F7F9;
+ border-radius: 8px;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
 }
-
 .languages-section {
   position: relative;
   top: -150px;
@@ -498,5 +474,5 @@ h6 {
   position: relative;
   height: 24px;
   top: -160px;
-  color: #000;
+  color: #000000;
 }
