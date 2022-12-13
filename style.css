@@ -381,6 +381,10 @@ h6 {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
+  display: flex;
+  list-style: none;
+  gap: 5px;
+  padding-left: 0%;
 }
 
 .prog-lang li {
@@ -395,6 +399,8 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
+  float: left;
+  margin-left: 5px;
 }
 
 .button {
