@@ -23,7 +23,7 @@ header {
 .intro {
   position: relative;
   top: -110px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -221,7 +221,7 @@ button:disabled:hover {
 h5 {
   position: relative;
   top: -50px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 32px;
   color: #172b4d;
 }
@@ -298,14 +298,14 @@ h5 {
   margin-top: 50px;
 }
 
-.others-arrow-1{
+.others-arrow-1 {
   position: relative;
   left: -181px;
   top: -159px;
   transform: rotate(-0.25turn);
 }
 
-.others-arrow-2{
+.others-arrow-2 {
   position: relative;
   left: -63px;
   top: -166px;
@@ -316,6 +316,7 @@ h5 {
   position: relative;
   bottom: 120px;
 }
+
 .others-item-1 {
   position: relative;
   top: -160px;
@@ -335,7 +336,7 @@ h5 {
   top: -224px;
   height: 1px;
   width: 345px;
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 .line1 {
@@ -344,7 +345,7 @@ h5 {
   top: -53px;
   height: 1px;
   width: 345px;
-  background: #DFE1E6;
+  background: #dfe1e6;
 }
 
 .a-day {
@@ -472,12 +473,12 @@ h6 {
 
 .js {
   width: 333px;
- height: 66.72px;
- background: #f7f7f9;
- border-radius: 8px;
- flex: none;
- order: 0;
- flex-grow: 0;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .languages-section {
