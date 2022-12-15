@@ -56,6 +56,7 @@
 
   .items a {
     padding-right: 20px;
+    text-decoration: none;
     color: #344563;
     font-size: 15px;
     font-weight: 500;
