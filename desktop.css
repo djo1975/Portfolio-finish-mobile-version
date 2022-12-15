@@ -114,8 +114,6 @@
     gap: 20px;
     padding: 1px;
     margin-left: -8px;
-    padding: 10px;
-    margin: 1px;
   }
 
   .works-container {
@@ -190,7 +188,7 @@
     font-size: 18px;
     line-height: 16px;
     color: #6b778c;
-}
+  }
   
   .canopy {
     font-family: 'Poppins', sans-serif;
@@ -284,13 +282,13 @@
     color: white;
   }
   
-  button:active {
+  .button:active {
     border: 1px solid blue;
     background-color: blue;
     color: white;
   }
   
-  button:disabled {
+  .button:disabled {
     border: 1px solid gray;
     color: gray;
   }
@@ -309,6 +307,15 @@
     flex-direction: column;
     width: 400px;
     padding: 80px 10px 100px 120px;
+  }
+
+  .inner-div p {
+    left: 24px;
+    top: 4802px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
   }
 
   .sisa {
@@ -425,15 +432,6 @@
     font-size: 40px;
     font-weight: 400;
     padding-bottom: 0;
-  }
-
-  .inner-div p {
-    left: 24px;
-    top: 4802px;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #ebebff;
   }
 
   li input {
