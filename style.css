@@ -7,7 +7,7 @@ body {
 
 .items,
 .desk-item-1,
-.item-2-desk{
+.item-2-desk {
   display: none;
 }
 
@@ -46,7 +46,6 @@ a {
   font-size: 18px;
   line-height: 16px;
   color: #6070ff;
-  
 }
 
 .main-section {
@@ -76,18 +75,7 @@ p {
   color: #344563;
   padding-left: 4px
 }
-.my-logo {
-  position: relative;
-  top: 12px;
-  font-family: 'Poppins', sans-serif;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  text-align: center;
-  color: #6070ff;
-}
+
 .canopy {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
@@ -96,7 +84,7 @@ p {
   font-size: 13px;
   line-height: 16px;
   color: #344563;
-  }
+}
 
 .con {
   color: #7f8cff;
@@ -120,8 +108,8 @@ li a {
 }
 
 .socialnetworks {
-  margin-left: 35px;
-  display: flex;
+  margin-left: 2px;
+  padding-bottom: 20px;
 }
 
 .works-container {
@@ -157,8 +145,9 @@ li a {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
+
 .bed {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
@@ -275,7 +264,7 @@ li a {
   line-height: 20px;
 }
 
-.others-arrow-1{
+.others-arrow-1 {
   transform: rotate(-0.25turn);
 }
 
@@ -291,11 +280,6 @@ li a {
   padding: 20px 20px;
   padding-top: 100px;
   border-top-right-radius: 25% 50px;
-}
-
-.socialnetworks {
-  margin-left: 2px;
-  padding-bottom: 20px;
 }
 
 button {
@@ -350,17 +334,11 @@ button:disabled {
   margin-left: -5px;
   margin-top: 10px;
 }
+
 .item-3 img {
   width: auto;
   height: auto;
   padding-top: 5px;
-}
-
-.canopy {
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #344563;
 }
 
 .item-4 {
@@ -445,11 +423,10 @@ li textarea {
   padding-top: 10px;
 }
 
-
 .others-arrow {
-    position: relative;
-    top: 18px;
-    height: 1px;
-    left: -26px;
+  position: relative;
+  top: 18px;
+  height: 1px;
+  left: -26px;
 }
 
