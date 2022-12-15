@@ -82,7 +82,7 @@
     border-bottom-left-radius: 100px;
   }
 
-  a {
+  .a {
     width: 76px;
     height: 20px;
     font-family: 'Poppins', sans-serif;
@@ -113,6 +113,8 @@
     display: flex;
     gap: 20px;
     padding: 1px;
+    margin-left: -8px;
+    padding: 10px;
     margin: 1px;
   }
 
@@ -189,12 +191,13 @@
     line-height: 16px;
     color: #6b778c;
 }
+  
   .canopy {
-    font-weight: 600;
-    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-size: 18px;
-    line-height: 24px;
     color: #344563;
+    text-decoration: none;
   }
 
   .item-4 {
@@ -369,20 +372,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-
-  .socialnetworks {
-    margin-left: -8px;
-    padding: 10px;
-  }
-
-  .canopy {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    color: #344563;
-    text-decoration: none;
-  }
-
+  
   .socialnetworks li a {
     font-size: 1.5em;
     color: #505f79;
