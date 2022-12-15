@@ -13,6 +13,14 @@
     display: none;
   }
 
+  .item-1-pic {
+    transition: transform 2s linear 0.15s;
+  }
+
+  .item-1-pic:hover {
+    transform: scale(1.2); 
+  }
+
   .my-logo {
     position: relative;
     top: 5px;
