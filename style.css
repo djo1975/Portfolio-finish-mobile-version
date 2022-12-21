@@ -21,7 +21,7 @@ body {
   font-size: 18px;
   line-height: 20px;
   text-align: center;
-  color: #6070ff;
+  color: #1a2ccb;
 }
 
 .my-menu {
@@ -87,7 +87,7 @@ p {
 }
 
 .con {
-  color: #7f8cff;
+  color: #2f43f5;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -130,7 +130,7 @@ li a {
 .pl a {
   font-size: 12px;
   font-weight: 500;
-  color: #6070ff;
+  color: #2334d4;
   border-radius: 8px;
   text-align: center;
   background: #ebebff;
@@ -145,7 +145,7 @@ li a {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #365893;
 }
 
 .bed {
@@ -153,7 +153,7 @@ li a {
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
-  color: #7a869a;
+  color: #1f4280;
 }
 
 .works-flex-pop span a {
@@ -260,7 +260,7 @@ li a {
 .languages-section p {
   font-weight: 500;
   font-size: 15px;
-  color: #253858;
+  color: #0d2348;
   line-height: 20px;
 }
 
@@ -293,7 +293,7 @@ button {
   font-weight: 500;
   font-size: 17px;
   letter-spacing: 0.03em;
-  color: #396df2;
+  color: #07329e;
   background-color: white;
   margin-top: 30px;
 }
@@ -328,7 +328,7 @@ button:disabled {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #396df2;
+  color: #0b3193;
   background-color: white;
   margin-bottom: 20px;
   margin-left: -5px;
@@ -344,11 +344,11 @@ button:disabled {
 .item-4 {
   font-size: 15px;
   line-height: 24px;
-  color: #344563;
+  color: #1f365c;
 }
 
 .item-2 h2 {
-  color: #172b4d;
+  color: #11274d;
   font-weight: bold;
   font-size: 32px;
 }
