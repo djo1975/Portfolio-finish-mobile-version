@@ -43,9 +43,12 @@
       <div class="works-container">
         <div class="grid" id="work-1">
           <div class="item-1"><img src="./img/portofolio-img-1.svg" alt="my tonic project"></div>
-          <div class="desk-item-1"><img src="img/nature.svg" alt="my tonic project"></div>
+          <div class="desk-item-1"><img class="img" src="img/nature.svg" alt="my tonic project"></div>
           <div class="desk-item-2">
             <div class="item-2">
+              <h2>Tonic</h2>
+            </div>
+             <div class="item-2-desk">
               <h2>Tonic</h2>
             </div>
             <div class="item-3">
@@ -71,7 +74,7 @@
       <div class="works-container">
         <div class="grid" id="work-2">
           <div class="item-1"><img src="img/portofolio-img-2.svg" alt="stories"></div>
-          <div class="desk-item-1"><img src="img/stories-desk.svg" alt="stories"></div>
+          <div class="desk-item-1"><img class="img" src="img/stories-desk.svg" alt="stories"></div>
           <div class="desk-item-2">
             <div class="item-2"><h2>Multi-Post <br> Stories</h2></div>
             <div class="item-2-desk"><h2>Multi-Post <br> Stories</h2></div>
@@ -99,7 +102,7 @@
       <div class="works-container">
         <div class="grid" id="work-3">
           <div class="item-1"><img src="img/portofolio-img-3.svg" alt="my tonic project"></div>
-          <div class="desk-item-1"><img src="img/desk-one.svg" alt="my tonic project"></div>
+          <div class="desk-item-1"><img class="img" src="img/desk-one.svg" alt="my tonic project"></div>
           <div class="desk-item-2">
             <div class="item-2">
               <h2>Tonic</h2>
@@ -130,7 +133,7 @@
       <div class="works-container">
         <div class="grid" id="work-4">
           <div class="item-1"><img src="img/portofolio-img-4.svg" alt="stories"></div>
-          <div class="desk-item-1"><img src="img/uber-desk.svg" alt="stories"></div>
+          <div class="desk-item-1"><img class="img" src="img/uber-desk.svg" alt="stories"></div>
           <div class="desk-item-2">
             <div class="item-2"><h2>Multi-Post <br> Stories</h2></div>
             <div class="item-2-desk"><h2>Multi-Post <br> Stories</h2></div>
@@ -210,17 +213,11 @@
         </div>
         <form action="https://formspree.io/f/xayvqdqk" id="form" class="form" method="POST">
           <ul class="inner-list">
-            <li>
-              <label for="name" hidden>Name:</label>
-              <input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40" maxlength="30" required>
+            <li><input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40" maxlength="30" required>
             </li>
-            <li>
-              <label for="email" hidden>Email:</label>
-              <input type="email" class="form-control" name="email" id="email" placeholder="E-mail address" required>
+            <li><input type="email" class="form-control" name="email" id="email" placeholder="E-mail address" required>
             </li>
-            <li>
-              <label for="text" hidden>Comments:</label>
-              <textarea name="text" class="form-control" id="text" placeholder="Message" required></textarea></li>
+            <li><textarea name="text" class="form-control" id="text" placeholder="Message" required></textarea></li>
             <li id="submit"><button type="submit">Get In Touch</button></li>
           </ul>
         </form>
