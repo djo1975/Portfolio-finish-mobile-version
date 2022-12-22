@@ -46,7 +46,7 @@ You can deploy this project using:
 
 ## Live Demo
 
-- https://djo1975.github.io/Portfolio-finish-mobile-version/
+- 
 
 ## ?? :raised_hand: :raised_hand: Contributions
 
