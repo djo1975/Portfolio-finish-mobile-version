@@ -210,11 +210,17 @@
         </div>
         <form action="https://formspree.io/f/xayvqdqk" id="form" class="form" method="POST">
           <ul class="inner-list">
-            <li><input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40" maxlength="30" required>
+            <li>
+              <label for="name" hidden>Name:</label>
+              <input type="text" class="form-control" placeholder="Full name" name="name" id="name" size="40" maxlength="30" required>
             </li>
-            <li><input type="email" class="form-control" name="email" id="email" placeholder="E-mail address" required>
+            <li>
+              <label for="email" hidden>Email:</label>
+              <input type="email" class="form-control" name="email" id="email" placeholder="E-mail address" required>
             </li>
-            <li><textarea name="text" class="form-control" id="text" placeholder="Message" required></textarea></li>
+            <li>
+              <label for="text" hidden>Comments:</label>
+              <textarea name="text" class="form-control" id="text" placeholder="Message" required></textarea></li>
             <li id="submit"><button type="submit">Get In Touch</button></li>
           </ul>
         </form>
