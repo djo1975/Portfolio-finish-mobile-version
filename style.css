@@ -62,7 +62,7 @@ a {
 }
 
 h1 {
-  color: #172b4d;
+  color: #0f2345;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -360,7 +360,10 @@ button:disabled {
 }
 
 .contact {
-  background-color: #6070ff;
+  background-color: #0819b1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-image: url(img/form-shapes-mob.svg);
   background-size: 100%;
   border-top-left-radius: 100px;
@@ -385,9 +388,11 @@ button:disabled {
   left: 24px;
   top: 4802px;
   font-size: 20px;
+  font-weight: 400;
   line-height: 28px;
   text-align: center;
-  color: #ebebff;
+  color: #000;
+  margin-block: 40px;
 }
 
 .form {
