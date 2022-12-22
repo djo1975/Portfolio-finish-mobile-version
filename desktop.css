@@ -24,7 +24,7 @@
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-    color: #6070ff;
+    color: #1a2ccb;
   }
 
   .desknav {
@@ -228,7 +228,7 @@
   .prog-lang li a {
     font-size: 12px;
     font-weight: 500;
-    color: #6070ff;
+    color: #2334d4;
     border-radius: 8px;
     text-align: center;
     background: #ebebff;
@@ -280,7 +280,7 @@
   }
 
   button:hover {
-    background-color: purple;
+    background-color: rgb(70, 2, 70);
     color: white;
   }
 
@@ -376,7 +376,7 @@
   }
 
   p.con {
-    color: #7f8cff;
+    color: #2334d4;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
