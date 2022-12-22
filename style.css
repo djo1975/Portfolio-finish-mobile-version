@@ -391,7 +391,7 @@ button:disabled {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
-  background-color: #00073D;
+  background-color: #00073d;
   color: white;
   margin-block: 40px;
 }
@@ -455,4 +455,4 @@ li textarea {
   margin-bottom: 20px;
   margin-left: -5px;
   margin-top: 10px;
-  }
+}
