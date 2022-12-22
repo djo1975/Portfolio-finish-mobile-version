@@ -236,7 +236,6 @@
   }
 
   button {
-    transition: all 2s ease-in-out 0.15s;
     border: 1px solid #dfe1e6;
     border-radius: 8px;
     width: 140px;
