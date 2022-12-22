@@ -123,11 +123,10 @@
 
   .works-container {
     display: grid;
-    margin: 0px 17px 82px 133px;
+    margin: 1px 17px 82px 133px;
     justify-content: space-around;
     justify-items: center;
   }
-
   
   #work-1,
   #work-2,
@@ -260,12 +259,12 @@
     justify-content: center;
     align-items: center;
   }
-.img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
-
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
   .resume {
     display: flex;
     align-items: center;
