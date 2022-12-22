@@ -24,18 +24,22 @@
     font-size: 18px;
     line-height: 20px;
     text-align: center;
-    color: #6070ff;
+    color: #1a2ccb;
   }
 
   .desknav {
-    position: fixed;
-    width: 100%;
+    position: sticky;
     display: flex;
     flex: 1 1 auto;
     text-align: center;
     padding: 1em;
     background-color: white;
     justify-content: space-between;
+  }
+
+  .works {
+    position: relative;
+    left: -65px;
   }
 
   .all-item a {
@@ -71,14 +75,14 @@
   }
 
   .main-section {
-    background-image: url(img/background.svg);
+    background-image: url(img/header_background.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: white;
     display: flex;
     height: 620px;
     flex-direction: column;
-    padding: 300px 200px 50px 250px;
+    padding: 172px 200px 50px 250px;
     margin-bottom: 120px;
     border-bottom-left-radius: 100px;
   }
@@ -119,10 +123,9 @@
 
   .works-container {
     display: grid;
-    grid-template-columns: auto;
-    grid-gap: 100px;
-    align-content: space-around;
-    margin: 100px 100px 150px 130px;
+    margin: 1px 17px 82px 133px;
+    justify-content: space-around;
+    justify-items: center;
   }
 
   #work-1,
@@ -131,7 +134,6 @@
   #work-4 {
     background-color: white;
     display: flex;
-    height: 450px;
     flex-direction: row;
     padding: 20px 20px;
     border: 1px solid #e5e5e5;
@@ -142,7 +144,6 @@
   #work-4 {
     background-color: white;
     display: flex;
-    height: 480px;
     flex-direction: row-reverse;
     padding: 20px 20px;
     border: 1px solid #e5e5e5;
@@ -150,13 +151,14 @@
   }
 
   .desk-item-1 {
-    padding-right: 30px;
+    width: 50%;
   }
 
   .desk-item-2 {
     display: flex;
     flex-direction: column;
     padding: 1px 10px 100px 20px;
+    width: 50%;
   }
 
   .desk-item-2 h2 {
@@ -228,16 +230,16 @@
   .prog-lang li a {
     font-size: 12px;
     font-weight: 500;
-    color: #6070ff;
+    color: #2334d4;
     border-radius: 8px;
     text-align: center;
-    background: #ebebff;
+    background: #f7f7f9;
     padding: 5px 10px;
+    border: 1px solid blue;
   }
 
   button {
-    transition: all 2s ease-in-out 0.15s;
-    border: 1px solid #dfe1e6;
+    border: 1px solid #4b72d1;
     border-radius: 8px;
     width: 140px;
     height: 50px;
@@ -256,6 +258,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
   }
 
   .resume {
@@ -280,7 +288,7 @@
   }
 
   button:hover {
-    background-color: purple;
+    background-color: rgb(70, 2, 70);
     color: white;
   }
 
@@ -301,7 +309,6 @@
     flex-direction: row;
     padding: 100px 20px 150px 20px;
     border-top-right-radius: 100px;
-    height: 680px;
   }
 
   .desk-about {
@@ -325,7 +332,7 @@
     flex-direction: column;
     margin-right: 130px;
     margin-left: 80px;
-    width: 500px;
+    width: 50%;
   }
 
   .languagesxx {
@@ -376,7 +383,7 @@
   }
 
   p.con {
-    color: #7f8cff;
+    color: #2334d4;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
