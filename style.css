@@ -174,14 +174,6 @@ li a {
   color: #1f4280;
 }
 
-.works-flex-pop span a {
-  text-decoration: none;
-  font-weight: bolder;
-  color: #acb7c3;
-  font-size: 20px;
-  padding-right: 20px;
-}
-
 .item-2 {
   display: flex;
   margin-top: -30px;
