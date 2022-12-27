@@ -36,17 +36,6 @@ body {
   display: none;
 }
 
-.my-menu a {
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  color: #fff;
-}
-
-.my-menu .close a {
-  font-weight: lighter;
-  font-size: 22px;
-}
-
 .my-menu .close {
   padding-top: 50px;
   text-align: right;
@@ -207,6 +196,17 @@ li a {
 .item-5 {
   position: relative;
   left: -35px;
+}
+
+.my-menu a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+.my-menu .close a {
+  font-weight: lighter;
+  font-size: 22px;
 }
 
 .inner-flex-item {
