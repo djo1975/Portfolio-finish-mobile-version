@@ -32,6 +32,8 @@ body {
   right: 0;
   top: 0;
   background-color: #6070fff0;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
   text-align: left;
   display: none;
 }
@@ -186,8 +188,7 @@ li a {
 }
 
 .item-5 {
-  position: relative;
-  left: -35px;
+  margin-left: -38px;
 }
 
 .my-menu a {
