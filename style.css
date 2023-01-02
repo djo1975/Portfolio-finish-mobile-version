@@ -25,8 +25,28 @@ body {
 }
 
 .my-menu {
-  cursor: pointer;
-  user-select: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #6070fff0;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(10px);
+  text-align: left;
+  display: none;
+}
+
+.my-menu .close {
+  padding-top: 50px;
+  text-align: right;
+  padding-right: 38px;
+  font-weight: lighter;
+}
+
+.mobile-nav {
+  padding: 15px 28px;
 }
 
 nav {
@@ -156,14 +176,6 @@ li a {
   color: #1f4280;
 }
 
-.works-flex-pop span a {
-  text-decoration: none;
-  font-weight: bolder;
-  color: #acb7c3;
-  font-size: 20px;
-  padding-right: 20px;
-}
-
 .item-2 {
   display: flex;
   margin-top: -30px;
@@ -176,8 +188,18 @@ li a {
 }
 
 .item-5 {
-  position: relative;
-  left: -35px;
+  margin-left: -38px;
+}
+
+.my-menu a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+.my-menu .close a {
+  font-weight: lighter;
+  font-size: 22px;
 }
 
 .inner-flex-item {
