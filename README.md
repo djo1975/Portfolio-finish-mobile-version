@@ -10,11 +10,11 @@ To get a local copy up and running follow these simple steps:
 
 ## :blue_book: Learning Objectives
 
-Use basic JavaScript syntax.
-Use JavaScript to manipulate DOM elements.
-Use JavaScript events.
-Understand how to parse a Figma design to create a UI.
-Use objects to store and access data.
+1. Use basic JavaScript syntax.
+2. Use JavaScript to manipulate DOM elements.
+3. Use JavaScript events.
+4. Understand how to parse a Figma design to create a UI.
+5. Use objects to store and access data.
 
 computer Getting Started
 Describe how a new developer could make use of your project.
