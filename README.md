@@ -10,10 +10,12 @@ To get a local copy up and running follow these simple steps:
 
 ## :blue_book: Learning Objectives
 
-- Understand how to parse a Figma design to create a UI.
-- Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of the website.
+Use basic JavaScript syntax.
+Use JavaScript to manipulate DOM elements.
+Use JavaScript events.
+Understand how to parse a Figma design to create a UI.
+Use objects to store and access data.
+
 computer Getting Started
 Describe how a new developer could make use of your project.
 ## 💻 Get Started
