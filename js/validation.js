@@ -13,3 +13,6 @@ function validate() {
     }
   };
 }
+formButton.addEventListener('click', () => {
+  validate();
+});
