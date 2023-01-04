@@ -45,6 +45,15 @@
     position: relative;
     left: -65px;
   }
+  
+   a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #6070ff;
+  }
 
   .all-item a {
     font-style: normal;
@@ -210,16 +219,7 @@
     backdrop-filter: blur(10px);
     z-index: 10;
   }
-
-  a {
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 16px;
-    color: #6070ff;
-  }
-
+  
   .canopy {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -259,7 +259,6 @@
     color: #67798e;
     font-size: 30px;
     cursor: pointer;
-    
   }
 
   .model_header {
@@ -281,7 +280,7 @@
   .project_description {
    display: none;
   }
-
+  
   .project_descriptiondesk {
     display: flex;
     width: 500px;
@@ -291,37 +290,35 @@
   .tech_list {
     display: none;
   }
-
-  .tech_listdesk  {
   
+  .tech_listdesk {
     position: relative;
     left: 590px;
     top: -245px;
   }
 
-  .tech_listdesk1  {
+  .tech_listdesk1 {
     position: relative;
     left: 590px;
     top: -265px;
 }
-
-
-.model_btn {
-  position: relative;
-  left: 609px;
-  top: -267px;
-  align-items: center;
-  gap: 11px;
-  border: 1px solid #6070ff;
-  font-size: 15px;
-  padding: 6px 8px;
-  border-radius: 8px;
-  color: #396df2;
-  width: 113px;
-  height: 26px;
+  
+  .model_btn {
+    position: relative;
+    left: 609px;
+    top: -267px;
+    align-items: center;
+    gap: 11px;
+    border: 1px solid #6070ff;
+    font-size: 15px;
+    padding: 6px 8px;
+    border-radius: 8px;
+    color: #396df2;
+    width: 113px;
+    height: 26px;
 }
-
-  .tech_listdesk li {
+  
+ .tech_listdesk li {
     background-color: #ebebff;
     color: #6070ff;
     border-radius: 8px;
