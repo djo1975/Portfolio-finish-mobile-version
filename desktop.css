@@ -45,7 +45,7 @@
     position: fixed;
     z-index: 1;
   }
-  
+
   .works {
     position: relative;
     left: -65px;
@@ -598,7 +598,7 @@
     display: flex;
     flex-direction: column;
   }
-  
+
   .form-button {
     padding-right: 30px;
     padding-left: 20px;
@@ -606,37 +606,38 @@
     display: flex;
     flex-direction: column;
   }
-  
+
   .form-control {
     background: #fff;
     border: 1px solid #cfd8dc;
     font-family: Poppins, sans-serif;
     height: 48px;
     width: 447px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 8px;
     padding-left: 10px;
     color: #000;
   }
-  
+
   #error-message {
     position: relative;
     top: -119px;
   }
-  
+
   .form-controlmsg {
     background: #fff;
     border: 1px solid #cfd8dc;
     font-family: Poppins, sans-serif;
     height: 170px;
     width: 447px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     border-radius: 8px;
     padding-left: 10px;
     color: #000;
   }
+
   textarea {
     resize: none;
   }

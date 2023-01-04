@@ -704,7 +704,6 @@ button:disabled {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-left: 32px;
 }
 
 .form-button {
@@ -721,8 +720,8 @@ button:disabled {
   font-family: Poppins, sans-serif;
   height: 48px;
   width: 327px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 8px;
   padding-left: 10px;
   color: #000;
@@ -740,8 +739,8 @@ button:disabled {
   font-family: Poppins, sans-serif;
   height: 170px;
   width: 327px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border-radius: 8px;
   padding-left: 10px;
   color: #000;
