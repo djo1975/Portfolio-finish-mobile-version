@@ -46,7 +46,7 @@
     left: -65px;
   }
   
-   a {
+  a {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-style: normal;
@@ -278,14 +278,14 @@
   }
 
   .project_description {
-   display: none;
+    display: none;
   }
   
   .project_descriptiondesk {
     display: flex;
     width: 500px;
     margin-left: 81px;
-   }
+  }
   
   .tech_list {
     display: none;
@@ -301,7 +301,7 @@
     position: relative;
     left: 590px;
     top: -265px;
-}
+  }
   
   .model_btn {
     position: relative;
@@ -316,8 +316,8 @@
     color: #396df2;
     width: 113px;
     height: 26px;
-}
-  
+  }
+
  .tech_listdesk li {
     background-color: #ebebff;
     color: #6070ff;
