@@ -1,65 +1,217 @@
-## :hammer: Built With
+<a name="readme-top"></a>
 
-- HTML and CSS
 
-To get a local copy up and running follow these simple steps:
+# 📗 Table of Contents
 
-1. Go to the [repository page](https://github.com/djo1975/Portfolio-setup-and-mobile-first).
-2. Press the "Code" button and copy the link.
-3. Clone it using git command `git clone <link>`.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-## :blue_book: Learning Objectives
+<!-- PROJECT DESCRIPTION -->
 
-1. Use basic JavaScript syntax.
-2. Use JavaScript to manipulate DOM elements.
-3. Use JavaScript events.
-4. Understand how to parse a Figma design to create a UI.
-5. Use objects to store and access data.
+# 📖 Mladan Ilic Portfolio <a name="about-project"></a>
 
-computer Getting Started
-Describe how a new developer could make use of your project.
-## 💻 Get Started
+**Mladan Ilic Portfolio** is about my work experiences.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://formspree.io/">Formspree</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Responsive**
+- **Contact Form**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://djo1975.github.io/Portfolio--online-version.github.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
 To get a local copy up and running, follow these steps.
 
-Prerequisites
-In order to run this project you need:
+### Prerequisites
 
-Setup
+In order to run this project you need:
+- Visual Studio
+- Github
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
 Clone this repository to your desired folder:
 
-Install
-Install this project with:
 
-Usage
-To run the project, execute the following command:
+Example commands:
 
-Run tests
-To run tests, run the following command:
+```sh
+  cd my-folder
+  git clone https://github.com/djo1975/Portfolio-finish-mobile-version.git
+```
+-
 
-Deployment
-You can deploy this project using:
+<!-- ### Install
 
-(back to top)
-## Authors
+Install this project with: -->
 
-?? **Mladan**
+<!--
+Example command:
 
-- GitHub: [@djo1975](https://github.com/djo1975)
+```sh
+  cd my-project
+  gem install
+```
+--->
 
-## Live Demo
+### Usage
 
-- https://djo1975.github.io/Portfolio-finish-mobile-version/
+To run the project, click on "Go Live" button from your Visual Studio.
 
-## ?? :raised_hand: :raised_hand: Contributions
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+<!-- ### Run tests
+
+To run tests, run the following command: -->
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+<!-- ### Deployment
+
+You can deploy this project using: -->
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Muhammad Aleem**
+
+- GitHub: [@githubhandle](https://github.com/djo1975)
+- Twitter: [@twitterhandle](https://twitter.com/MladanIlic)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mladan-ilic-0528a2256/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Validate Contact Form**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]([https://github.com/ArthurGC/portfolio-microverse/issues](https://github.com/djo1975/Portfolio-setup-and-mobile-first/issues)).
+Feel free to check the [issues page](https://github.com/djo1975/Portfolio-finish-mobile-version/issues).
 
-## Acknowledgments
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Thanks to Microverse
+<!-- SUPPORT -->
 
-## ?? License
+## ⭐️ Show your support <a name="support"></a>
 
-This project is [MIT](LICENSE) licensed.
+If you like this project then please do follow and support me.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank my all contributors who supported me in this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Can I use your code for my project?**
+
+  - Alright, you can get understanding from my code. I strongly recommend you to write your own code. It will give you better understanding. Thanks.
+
+- **Will you help me to solve my problem in my code?**
+
+  - Yes, I'll be my pleasure to help you to solve your problem in your code.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
