@@ -6,13 +6,12 @@ body {
 }
 
 .items,
-.item-2-desk,
 .item-3-desk,
 .item-4-desk,
 .item-5-desk,
 .desk-item-1,
 .item-2-desk,
-.tech_listdesk1{
+.tech_listdesk1 {
   display: none;
 }
 
@@ -207,6 +206,7 @@ a {
 .margin_li {
   margin-left: 10px;
 }
+
 .w1contain {
   display: flex;
   flex-direction: column;
