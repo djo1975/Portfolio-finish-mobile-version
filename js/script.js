@@ -2,10 +2,10 @@ const array = [
   {
     id: '1',
     name: 'Tonic',
-    namedesk:'Tonic',
+    namedesk: 'Tonic',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     shortDescriptiondesk: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
     scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
@@ -23,10 +23,10 @@ const array = [
   {
     id: '2',
     name: 'Multi-Post Stories',
-    namedesk:'Multi-Post Stories',
+    namedesk: 'Multi-Post Stories',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     shortDescriptiondesk: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
     scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
@@ -44,10 +44,10 @@ const array = [
   {
     id: '3',
     name: 'Tonic',
-    namedesk:'Facebook 360',
+    namedesk: 'Facebook 360',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     shortDescriptiondesk: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
     scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
@@ -65,10 +65,10 @@ const array = [
   {
     id: '4',
     name: 'Multi-Post Stories',
-    namedesk:'Uber Navigation',
+    namedesk: 'Uber Navigation',
     shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     shortDescriptiondesk: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    longDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
+    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
     industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
     scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
