@@ -15,7 +15,7 @@ const getValue = JSON.parse(retrievedObject);
 
 window.addEventListener('load', () => {
   if (localStorage.getItem('text')) {
-    document.querySelector('#name').value = getValue.fullname;
+    document.querySelector('#name').value = getValue.fullName;
     document.querySelector('#email').value = getValue.emailAdress;
     document.querySelector('#message').value = getValue.message;
   }
