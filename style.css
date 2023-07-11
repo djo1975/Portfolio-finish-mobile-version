@@ -15,17 +15,9 @@ body {
   display: none;
 }
 
-.my-logo {
-  position: relative;
-  top: 2px;
-  font-family: 'Poppins', sans-serif;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  text-align: center;
-  color: #1a2ccb;
+.my-logo img {
+  max-width: 20%;
+  border-radius: 5px;
 }
 
 .my-menu {
@@ -55,15 +47,13 @@ body {
 
 nav {
   display: flex;
-  flex: 1 1 auto;
   justify-content: space-between;
-  text-align: center;
-  padding: 1em;
+  padding: 1rem;
   background-color: white;
 }
 
 a {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   text-decoration: none;
   font-style: normal;
   font-size: 18px;
@@ -72,24 +62,23 @@ a {
 }
 
 .main-section {
-  background-image: url(img/background.svg);
+  background-image: url("img/background.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: white;
   display: flex;
   height: 620px;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 20px;
   border-bottom-left-radius: 25% 50px;
   margin-bottom: 100px;
 }
 
 .bg-modal {
-  background-color: rgba(193, 199, 208, 0.7);
+  background-color: rgb(193 199 208 / 70%);
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +89,7 @@ a {
 
 .model_content {
   width: 93%;
-  height: calc(100vh - 20px);
+  height: calc(90vh - 20px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,7 +139,7 @@ a {
 .project_description {
   text-align: start;
   color: #344563;
-  font-size: 15px;
+  font-size: 12px;
   width: 90%;
   line-height: 24px;
   font-weight: 400;
@@ -232,7 +221,7 @@ a {
 .spec1 {
   list-style: none;
   color: #344563;
-  margin: 16px 0 10px 0;
+  margin: 16px 0 10px;
 }
 
 .spec2 {
@@ -328,7 +317,7 @@ a {
 .modal {
   position: absolute;
   z-index: 1;
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgb(0 0 0 / 50%);
   width: 100%;
   height: 100vh;
   overflow: auto;
@@ -349,7 +338,7 @@ a {
   float: right;
   padding: 20px;
   font-size: 24px;
-  color: rgba(103, 121, 142, 1);
+  color: rgb(103 121 142 / 100%);
 }
 
 .pti {
@@ -372,7 +361,7 @@ p {
 }
 
 .canopy {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   text-decoration: none;
   font-style: normal;
   font-weight: 600;
@@ -417,7 +406,7 @@ li a {
   display: flex;
   margin-bottom: 100px;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 20px;
   border: 1px solid #e5e5e5;
   border-radius: 3%;
 }
@@ -435,7 +424,7 @@ li a {
 
 .year {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -444,7 +433,7 @@ li a {
 }
 
 .bed {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
@@ -467,7 +456,7 @@ li a {
 }
 
 .my-menu a {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 32px;
   color: #fff;
 }
@@ -479,8 +468,7 @@ li a {
 
 .inner-flex-item {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   width: 100%;
 }
 
@@ -555,7 +543,7 @@ li a {
   border-color: #acb7c3;
   border-radius: 8px;
   background-color: #f7f7f9;
-  padding: 10px 10px;
+  padding: 10px;
   margin-bottom: 10px;
 }
 
@@ -579,7 +567,7 @@ li a {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 20px;
   padding-top: 100px;
   border-top-right-radius: 25% 50px;
 }
@@ -601,7 +589,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(70, 2, 70);
+  background-color: rgb(70 2 70);
   color: white;
 }
 
@@ -666,7 +654,7 @@ button:disabled {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-image: url(img/form-shapes-mob.svg);
+  background-image: url("img/form-shapes-mob.svg");
   background-size: 100%;
   border-top-left-radius: 100px;
   margin-top: 100px;

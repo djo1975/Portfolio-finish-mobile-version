@@ -1,24 +1,34 @@
 const array = [
   {
     id: '1',
-    name: 'Tonic',
-    namedesk: 'Tonic',
-    shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    shortDescriptiondesk: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featured: ['CANOPY', 'Back End Dev', 2015],
-    featureddesk: ['CANOPY', 'Back End Dev', 2015],
-    image: 'img/portofolio-img-1.svg',
-    imageDesktop: 'img/nature.svg',
-    technologies: ['html', 'css', 'javaScript'],
-    technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails', 'github', 'ruby', 'Bootstraps'],
-    live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
-    source_link: 'https://github.com/djo1975/Portfolio-finish-mobile-version',
+    name: 'Vespa',
+    namedesk: 'Vespa',
+    shortDescription: 'This project is designed for the reservation of fancy vespas.',
+    shortDescriptiondesk: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you.',
+    longDescription: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it ',
+    longDescriptiondesk: `This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it to our website and others will be able to reserve it!
+
+    Here are some of the benefits of using our website:
+    
+        Wide selection of Vespas to choose from
+        Competitive prices
+        Easy and convenient booking process
+        24/7 customer support
+    
+    The main features of this website are:
+    
+        Users can see details of all the Vespas.
+        Users can reserve a Vespa for a special day.
+        Users can add their own Vespas and remove them if they want to.
+    `,
+    featured: ['VSC', 'Full Stack', 2023],
+    featureddesk: ['VSC', 'Full Stack', 2023],
+    image: 'img/Vespa.png',
+    imageDesktop: 'img/Vespa.png',
+    technologies: ['Ruby on rails', 'React', 'CSS'],
+    technologiesdesk: ['Ruby on rails', 'Redux', 'CSS', 'React', 'Git-Hub', 'Ruby', 'React'],
+    live_version: 'https://vespa-reservation.onrender.com',
+    source_link: 'https://github.com/djo1975/Program-Capstone',
   },
   {
     id: '2',
