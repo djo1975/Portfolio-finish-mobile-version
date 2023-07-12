@@ -535,7 +535,14 @@ li a {
   font-weight: 500;
   font-size: 20px;
 }
+.languagesxx {
+  display: none;
+}
 
+.languagesxx.open {
+  display: flex;
+  flex-direction: row;
+}
 .languages-section {
   display: flex;
   text-align: center;
@@ -553,13 +560,28 @@ li a {
   color: #0d2348;
   line-height: 20px;
 }
+.others-arrow{
+  transform: rotate(-0.25turn);
+  margin-top: 1rem;
+}
 
+.others-arrow.open{
+  transform: rotate(0turn);
+}
 .others-arrow-1 {
   transform: rotate(-0.25turn);
 }
 
 .grid img {
   width: 100%;
+}
+
+.cplus {
+  width: 170%;
+}
+
+.cplusplus {
+  margin-left: 1.3rem;
 }
 
 .about-myself {
