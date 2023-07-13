@@ -1,87 +1,85 @@
 const array = [
   {
     id: '1',
-    name: 'Tonic',
-    namedesk: 'Tonic',
-    shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    shortDescriptiondesk: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featured: ['CANOPY', 'Back End Dev', 2015],
-    featureddesk: ['CANOPY', 'Back End Dev', 2015],
-    image: 'img/portofolio-img-1.svg',
-    imageDesktop: 'img/nature.svg',
-    technologies: ['html', 'css', 'javaScript'],
-    technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails', 'github', 'ruby', 'Bootstraps'],
-    live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
-    source_link: 'https://github.com/djo1975/Portfolio-finish-mobile-version',
+    name: 'Vespa',
+    namedesk: 'Vespa',
+    shortDescription: 'This project is designed for the reservation of fancy vespas.',
+    shortDescriptiondesk: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you.',
+    longDescription: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it ',
+    longDescriptiondesk: `This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it to our website and others will be able to reserve it!
+
+    Here are some of the benefits of using our website:
+    
+        Wide selection of Vespas to choose from
+        Competitive prices
+        Easy and convenient booking process
+        24/7 customer support
+    
+    The main features of this website are:
+    
+        Users can see details of all the Vespas.
+        Users can reserve a Vespa for a special day.
+        Users can add their own Vespas and remove them if they want to.
+    `,
+    featured: ['VSC', 'Full Stack', 2023],
+    featureddesk: ['VSC', 'Full Stack', 2023],
+    image: 'img/Vespa.png',
+    imageDesktop: 'img/Vespa.png',
+    technologies: ['Ruby on rails', 'React', 'CSS'],
+    technologiesdesk: ['Ruby on rails', 'Redux', 'CSS', 'React', 'Git-Hub', 'Ruby', 'React'],
+    live_version: 'https://vespa-reservation.onrender.com',
+    source_link: 'https://github.com/djo1975/Program-Capstone',
   },
   {
     id: '2',
-    name: 'Multi-Post Stories',
-    namedesk: 'Multi-Post Stories',
-    shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    shortDescriptiondesk: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featured: ['CANOPY', 'Back End Dev', 2015],
-    featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
-    image: 'img/portofolio-img-2.svg',
-    imageDesktop: 'img/stories-desk.svg',
-    technologies: ['html', 'css', 'javaScript'],
-    technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails', 'github', 'ruby', 'Bootstraps'],
+    name: 'Recipe-App',
+    namedesk: 'Recipe-App',
+    shortDescription: 'This app keeps track of all user recipes, ingredients, and inventory. It allows the user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what the user has and what they are missing from. ',
+    shortDescriptiondesk: 'This app keeps track of all user recipes, ingredients, and inventory. It allows the user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what the user has and what they are missing from a recipe. ',
+    longDescription: 'This app keeps track of all user recipes, ingredients, and inventory. It allows the user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what the user has and what they are missing from a recipe. ',
+    longDescriptiondesk: 'This app keeps track of all user recipes, ingredients, and inventory. It allows the user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what the user has and what they are missing from a recipe. The app allows users to make the recipes public so that anyone can access them. ',
+    featured: ['VSC', 'Full Stack Dev', 2023],
+    featureddesk: ['VSC', 'Full Stack Dev', 2023],
+    image: 'img/recipe.png',
+    imageDesktop: 'img/recipe.png',
+    technologies: ['Ruby on rails', 'CSS', 'HTML'],
+    technologiesdesk: ['Ruby on rails', 'HTML', 'CSS', 'Git-Hub', 'SCSS', 'Ruby', 'Git-Hub'],
     live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
-    source_link: 'https://github.com/djo1975/Portfolio-finish-mobile-version',
+    source_link: 'https://github.com/djo1975/Recipe-app',
   },
   {
     id: '3',
-    name: 'Tonic',
-    namedesk: 'Facebook 360',
-    shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    shortDescriptiondesk: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featured: ['CANOPY', 'Back End Dev', 2015],
-    featureddesk: ['FACEBOOK', 'Full Stack Dev', 2015],
-    image: 'img/portofolio-img-3.svg',
-    imageDesktop: 'img/desk-one.svg',
-    technologies: ['html', 'css', 'javaScript'],
-    technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails', 'github', 'ruby', 'Bootstraps'],
-    live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
-    source_link: 'https://github.com/djo1975/Portfolio-finish-mobile-version',
+    name: 'Budget-App',
+    namedesk: 'Budget-App',
+    shortDescription: 'Budget App is a Ruby on Rails capstone project which you can create new categories, you can write new transactions and deploy it the categories and finally you can control how much money you spend each category. ',
+    shortDescriptiondesk: 'Budget App is a Ruby on Rails capstone project which you can create new categories, you can write new transactions and deploy it the categories and finally you can control how much money you spend each category. ',
+    longDescription: 'Budget App is a Ruby on Rails capstone project which you can create new categories, you can write new transactions and deploy it the categories and finally you can control how much money you spend each category. ',
+    longDescriptiondesk: 'Budget App is a Ruby on Rails capstone project which you can create new categories, you can write new transactions and deploy it the categories and finally you can control how much money you spend each category. ',
+    featured: ['Mobile', 'Full Stack Dev', 2023],
+    featureddesk: ['Mobile', 'Full Stack Dev', 2023],
+    image: 'img/budget.png',
+    imageDesktop: 'img/Budget-app.png',
+    technologies: ['Ruby on rails', 'CSS', 'HTML'],
+    technologiesdesk: ['Ruby on rails', 'HTML', 'CSS', 'Git-Hub', 'SCSS', 'Ruby', 'Git-Hub'],
+    live_version: 'https://mitra-6mqk.onrender.com/',
+    source_link: 'https://github.com/djo1975/Budget-app.git',
   },
   {
     id: '4',
-    name: 'Multi-Post Stories',
-    namedesk: 'Uber Navigation',
-    shortDescription: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    shortDescriptiondesk: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    longDescriptiondesk: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-    scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
-    printer took a galley of type and scrambled it 1960s with the relea`,
-    featured: ['CANOPY', 'Back End Dev', 2015],
-    featureddesk: ['UBER', 'Lead Developer', 2018],
-    image: 'img/portofolio-img-4.svg',
-    imageDesktop: 'img/uber-desk.svg',
-    technologies: ['html', 'css', 'javaScript'],
-    technologiesdesk: ['html', 'css', 'javaScript', 'Ruby on rails', 'github', 'ruby', 'Bootstraps'],
-    live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
-    source_link: 'https://github.com/djo1975/Portfolio-finish-mobile-version',
+    name: 'Space Travel Hub ',
+    namedesk: 'Space Travel Hub ',
+    shortDescription: 'Space Travel Hub is a visually stunning website built with React and Redux, offering a comprehensive resource for space exploration. It features articles, news updates, imagery, videos, interactive maps, and personalized user profiles, creating an immersive and engaging experience. ',
+    shortDescriptiondesk: 'Space Travel Hub is a visually stunning website built with React and Redux, offering a comprehensive resource for space exploration. It features articles, news updates, imagery, videos, interactive maps, and personalized user profiles, creating an immersive and engaging experience. ',
+    longDescription: 'The primary goal of Space Travel Hub is to provide visitors with a comprehensive resource for all things related to space exploration. ',
+    longDescriptiondesk: 'The primary goal of Space Travel Hub is to provide visitors with a comprehensive resource for all things related to space exploration. The website boasts a vast array of content, ranging from in-depth articles and news updates to captivating imagery and videos from space missions. Whether users are space enthusiasts, researchers, or simply curious individuals, they can find a wealth of information and entertainment within the site.',
+    featured: ['VSC', 'Front End Dev', 2023],
+    featureddesk: ['VSC', 'Front End Dev', 2023],
+    image: 'img/rakete.png',
+    imageDesktop: 'img/rakete.png',
+    technologies: ['React', 'CSS', 'Redux'],
+    technologiesdesk: ['React', 'CSS', 'JavaScript', 'Redux', 'Git-Hub', 'SCSS', 'Bootstraps'],
+    live_version: 'https://space-travel-hub-react-redux.netlify.app/',
+    source_link: 'https://github.com/rivasbolinga/Space-Travel-Hub',
   },
 ];
 
