@@ -535,6 +535,7 @@ li a {
   font-weight: 500;
   font-size: 20px;
 }
+
 .languagesxx {
   display: none;
 }
@@ -543,6 +544,7 @@ li a {
   display: flex;
   flex-direction: row;
 }
+
 .languages-section {
   display: flex;
   text-align: center;
@@ -560,14 +562,20 @@ li a {
   color: #0d2348;
   line-height: 20px;
 }
-.others-arrow{
+
+.others-arrow {
   transform: rotate(-0.25turn);
   margin-top: 1rem;
+  position: relative;
+  top: 18px;
+  height: 1px;
+  left: -26px;
 }
 
-.others-arrow.open{
+.others-arrow.open {
   transform: rotate(0turn);
 }
+
 .others-arrow-1 {
   transform: rotate(-0.25turn);
 }
@@ -770,13 +778,6 @@ li textarea {
   font-size: 15px;
   line-height: 24px;
   padding-top: 10px;
-}
-
-.others-arrow {
-  position: relative;
-  top: 18px;
-  height: 1px;
-  left: -26px;
 }
 
 .resume {

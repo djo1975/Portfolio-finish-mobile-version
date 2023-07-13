@@ -183,26 +183,31 @@
     width: 70%;
   }
 
-  .frameworksxx, .skillsxx {
+  .frameworksxx,
+  .skillsxx {
     display: none;
   }
-  
-  .open .frameworksxx, .open .skillsxx {
+
+  .open .frameworksxx,
+  .open .skillsxx {
     display: flex;
     flex-direction: row;
   }
-  
-  .others-arrow{
+
+  .others-arrow {
     transform: rotate(-0.25turn);
     margin-top: 1rem;
   }
-  
-  .others-arrow.open{
+
+  .others-arrow.open {
     transform: rotate(0turn);
   }
-  .others-arrow-1, .others-arrow-2 {
+
+  .others-arrow-1,
+  .others-arrow-2 {
     transform: rotate(-0.25turn);
   }
+
   .bed {
     font-family: Poppins, sans-serif;
     text-decoration: none;
@@ -506,7 +511,8 @@ button:hover {
   display: none;
 }
 
-.open .others-arrow-1, .open .others-arrow-2 {
+.open .others-arrow-1,
+.open .others-arrow-2 {
   display: inline;
   transform: rotate(0turn);
 }
