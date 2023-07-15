@@ -20,6 +20,13 @@ body {
   border-radius: 5px;
 }
 
+.header-section {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
 .my-menu {
   position: fixed;
   height: 100%;

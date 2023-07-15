@@ -23,6 +23,12 @@
     border-radius: 5px;
     margin-left: 3rem;
   }
+  .header-section {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+  }
 
   .desknav {
     display: flex;
