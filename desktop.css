@@ -275,7 +275,11 @@
     margin-left: -1rem;
   }
 
-  .img_project {
+  .img_project-0,
+  .img_project-1,
+  .img_project-2,
+  .img_project-3
+   {
     display: none;
   }
 
@@ -318,19 +322,19 @@
 .tech_listdesk {
   position: relative;
   left: 653px;
-  top: -245px;
+  top: -159px;
 }
 
 .tech_listdesk1 {
   position: relative;
   left: 653px;
-  top: -265px;
+  top: -211px;
 }
 
 .model_btn {
   position: relative;
   left: 661px;
-  top: -267px;
+  top: -240px;
   border: 3px solid #6070ff;
   font-size: 15px;
   padding: 6px 8px;
@@ -380,10 +384,20 @@
   display: none;
 }
 
-.img_desktop {
-  width: 90%;
-  height: 70%;
-  margin-left: 4rem;
+.img_desktop-0 {
+  margin-left: 7rem;
+}
+
+.img_desktop-1 {
+  margin-left: 11rem;
+}
+
+.img_desktop-2 {
+  margin-left: 27rem;
+}
+
+.img_desktop-3 {
+  margin-left: 6rem;
 }
 
 .prog-lang li a {
@@ -424,13 +438,18 @@ button {
   align-items: center;
 }
 
-.img {
+.img-0, .img-1, .img-3 {
   width: 100%;
-  height: 100%;
+  margin-top: 10rem;
   object-fit: fill;
   border-radius: 1rem;
 }
 
+.img-2 {
+    margin-left: 6rem;
+    height: 80%;
+    margin-top: 3rem;
+}
 .resume {
   display: flex;
   align-items: center;

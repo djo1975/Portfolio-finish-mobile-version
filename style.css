@@ -95,11 +95,12 @@ a {
 }
 
 .model_content {
-  width: 93%;
-  height: calc(90vh - 20px);
+  width: 90%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: calc(102vh - 27px);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-around;
   background-color: #fff;
   border-radius: 8px;
@@ -132,7 +133,11 @@ a {
   height: 26px;
 }
 
-.img_desktop {
+.img_desktop-0,
+.img_desktop-1,
+.img_desktop-2,
+.img_desktop-3
+ {
   display: none;
 }
 
@@ -172,6 +177,10 @@ a {
 .img_project {
   width: 311px;
   height: 220px;
+}.img_project-2 {
+  height: 23rem;
+  width: 14rem;
+  margin-left: 7rem;
 }
 
 .crossBtn {
@@ -488,7 +497,12 @@ li a {
   display: flex;
   flex-direction: column;
 }
-
+.framework {
+  display: flex;
+  text-align: center;
+  flex: 1 1 auto;
+  justify-content: space-between;
+}
 .skills {
   display: flex;
   flex: 1 1 auto;
@@ -501,13 +515,23 @@ li a {
   padding-top: 22px;
   align-content: flex-end;
 }
+.languagesxx {
+  display: none;
+}
 
-.framework {
+.languagesxx.open {
   display: flex;
-  text-align: center;
-  flex: 1 1 auto;
-  justify-content: space-between;
-  border-bottom: 1px solid #acb7c3;
+  flex-direction: column;
+}
+.frameworksxx,
+.skillsxx {
+  display: none;
+}
+
+.open .frameworksxx,
+.open .skillsxx {
+  display: flex;
+  flex-direction: column;
 }
 
 .framework p {
@@ -517,6 +541,16 @@ li a {
   font-size: 20px;
 }
 
+.frameworks-section {
+  display: flex;
+  text-align: center;
+  flex: 1 1 auto;
+  border-color: #acb7c3;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
 .skills p {
   color: #000;
   font-style: normal;
@@ -549,7 +583,7 @@ li a {
 
 .languagesxx.open {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .languages-section {
@@ -581,6 +615,7 @@ li a {
 
 .others-arrow.open {
   transform: rotate(0turn);
+  margin-top: 1px;
 }
 
 .others-arrow-1 {

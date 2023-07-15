@@ -40,8 +40,8 @@ const array = [
     longDescriptiondesk: 'This app keeps track of all user recipes, ingredients, and inventory. It allows the user to save ingredients, keep track of what they have, create recipes, and generate a shopping list based on what the user has and what they are missing from a recipe. The app allows users to make the recipes public so that anyone can access them. ',
     featured: ['VSC', 'Full Stack Dev', 2023],
     featureddesk: ['VSC', 'Full Stack Dev', 2023],
-    image: 'img/recipe.png',
-    imageDesktop: 'img/recipe.png',
+    image: 'img/rec.png',
+    imageDesktop: 'img/rec.png',
     technologies: ['Ruby on rails', 'CSS', 'HTML'],
     technologiesdesk: ['Ruby on rails', 'HTML', 'CSS', 'Git-Hub', 'SCSS', 'Ruby', 'Git-Hub'],
     live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
@@ -57,7 +57,7 @@ const array = [
     longDescriptiondesk: 'Budget App is a Ruby on Rails capstone project which you can create new categories, you can write new transactions and deploy it the categories and finally you can control how much money you spend each category. ',
     featured: ['Mobile', 'Full Stack Dev', 2023],
     featureddesk: ['Mobile', 'Full Stack Dev', 2023],
-    image: 'img/budget.png',
+    image: 'img/budgetxx.png',
     imageDesktop: 'img/Budget-app.png',
     technologies: ['Ruby on rails', 'CSS', 'HTML'],
     technologiesdesk: ['Ruby on rails', 'HTML', 'CSS', 'Git-Hub', 'SCSS', 'Ruby', 'Git-Hub'],
@@ -113,8 +113,8 @@ function openModal(id) {
           <li class="item2"><span class="dot">&bull;</span><span>${array[i].featured[1]}</span></li>
           <li class="item2"><span class="dot">&bull;</span><span>${array[i].featured[2]}</span></li>
       </ul>
-      <img class="img_project" src=${array[i].image} alt="project">
-      <img class="img_desktop" src=${array[i].imageDesktop} alt="project desktop screenshot">
+      <img class="img_project-${i}" src=${array[i].image} alt="project">
+      <img class="img_desktop-${i}" src=${array[i].imageDesktop} alt="project desktop screenshot">
       <p class="project_description">${array[i].longDescription}</p>
       
       <ul class="tech_list">
@@ -150,8 +150,8 @@ for (let i = 0; i < array.length; i += 1) {
   dynamicWork.innerHTML += `<div class="works-container">
   <div class="grid" id="work-1">
   <div id=${array[i].id} class="item-1">
-  <img src=${array[i].image} alt="my tonic project"></div>
-  <div class="desk-item-1"><img class="img" src=${array[i].imageDesktop} alt="my tonic project"></div>
+  <img src=${array[i].image} alt="my tonic project" class="img-${i}"></div>
+  <div class="desk-item-1"><img class="img-${i}" src=${array[i].imageDesktop} alt="my tonic project"></div>
   <div class="desk-item-2">
     <div class="item-2">
       <h2>${array[i].name}</h2>
