@@ -185,35 +185,6 @@
     margin-left: -1rem;
   }
 
-  .cplus {
-    width: 70%;
-  }
-
-  .frameworksxx,
-  .skillsxx {
-    display: none;
-  }
-
-  .open .frameworksxx,
-  .open .skillsxx {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .others-arrow {
-    transform: rotate(-0.25turn);
-    margin-top: 1rem;
-  }
-
-  .others-arrow.open {
-    transform: rotate(0turn);
-  }
-
-  .others-arrow-1,
-  .others-arrow-2 {
-    transform: rotate(-0.25turn);
-  }
-
   .bed {
     font-family: Poppins, sans-serif;
     text-decoration: none;
@@ -519,6 +490,33 @@ button:hover {
   width: 50%;
 }
 
+.frameworksxx,
+.skillsxx {
+  display: none;
+}
+
+.frameworksxx.open,
+ .skillsxx.open {
+  display: flex;
+  flex-direction: row;
+}
+
+.others-arrow,
+.others-arrow-1,
+.others-arrow-2 {
+  transform: rotate(-0.25turn);
+  margin-top: 1rem;
+}
+
+.others-arrow.open {
+  transform: rotate(0turn);
+}
+
+.others-arrow-1,
+.others-arrow-2 {
+  transform: rotate(-0.25turn);
+}
+
 .languagesxx {
   display: none;
 }
@@ -536,8 +534,8 @@ button:hover {
   display: none;
 }
 
-.open .others-arrow-1,
-.open .others-arrow-2 {
+.others-arrow-1.open,
+.others-arrow-2.open  {
   display: inline;
   transform: rotate(0turn);
 }
@@ -554,6 +552,29 @@ button:hover {
   padding: 10px;
 }
 
+.frameworks-section {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 100px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-right: 55px;
+  margin-top: 2px;
+  padding: 10px;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 100px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-right: 55px;
+  margin-top: 2px;
+  padding: 10px;
+}
 .work-description > p {
   font-size: 18px;
   color: #344563;
