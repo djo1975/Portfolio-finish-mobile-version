@@ -25,5 +25,5 @@ document.addEventListener('DOMContentLoaded', () => {
   const resumeButton = document.querySelector('.resume');
 
   resumeButton.addEventListener('click', () => {
-    window.open('https://docs.google.com/document/d/14NXJBul3J7lE1JGAivwDjxdtZ9ThdYaYddvdL_k_C9M/edit?usp=sharing', '_blank');
+    window.open('https://docs.google.com/document/d/e/2PACX-1vQQ2BalCcpoEkZcspA_CpYWu5jh7cRl-dOWKUoqnM-g8U73XamgVeOtwU6K00J3CAUGi5YJwKep1UPz/pub', '_blank');
   });
