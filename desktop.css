@@ -564,6 +564,18 @@ button:hover {
   padding: 10px;
 }
 
+.skills-section li p,
+.frameworks-section li p {
+  color: #253858;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: -10px;
+} 
+
+.apipie {
+  width: 85%;
+}
 .skills-section {
   display: flex;
   flex-direction: column;
