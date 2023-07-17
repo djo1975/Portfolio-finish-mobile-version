@@ -25,5 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const resumeButton = document.querySelector('.resume');
 
   resumeButton.addEventListener('click', () => {
-    window.open('https://docs.google.com/document/d/e/2PACX-1vQQ2BalCcpoEkZcspA_CpYWu5jh7cRl-dOWKUoqnM-g8U73XamgVeOtwU6K00J3CAUGi5YJwKep1UPz/pub', '_blank');
+    window.open('../img/Mladan_Ilic_Resume.pdf', '_blank');
   });
+  
