@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const skillsMenu = document.querySelector('.skillsxx');
   const arrowSkills = document.querySelector('.others-arrow-2');
 
+  // Dodajte 'open' klasu na početno stanje jezika
+  languagesMenu.classList.add('open');
+  arrowLanguages.classList.add('open');
+
   arrowLanguages.addEventListener('click', () => {
     languagesMenu.classList.toggle('open');
     arrowLanguages.classList.toggle('open');
@@ -21,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     arrowSkills.classList.toggle('open');
   });
 });
+
 
   const resumeButton = document.querySelector('.resume');
 
