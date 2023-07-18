@@ -1,35 +1,18 @@
-const form = document.getElementById('form');
-form.addEventListener('submit', validate);
-
-function validate(e) {
-  e.preventDefault(); // Spriječi podnošenje obrasca radi ručne validacije
-
-  const emailInput = document.getElementById('email');
-  const email = emailInput.value;
+const formButton = document.querySelector('#form-button');
+function validate() {
+  const text = document.getElementById('email').value;
   const validator = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
-
-  const errorMessage = document.getElementById('error-message');
-
-  if (!validator.test(email)) {
-    errorMessage.innerHTML = 'Please use lowercase to enter a valid email address!';
-    errorMessage.style.visibility = 'visible';
-    errorMessage.style.color = 'white';
-    errorMessage.style.background = 'red';
-    errorMessage.style.textAlign = 'center';
-  } else {
-    errorMessage.innerHTML = ''; // Poništi prikaz poruke o grešci
-    errorMessage.style.visibility = 'hidden';
-
-    // Ovdje možete dodati svoju logiku ili kod za manipulaciju podacima obrasca prije slanja
-    // Na primjer, slanje podataka preko AJAX-a ili obrada podataka na strani klijenta
-
-    // Simulacija slanja podataka obrasca
-    simulateFormSubmission();
-  }
+  document.forms[0].onsubmit = function email(e) {
+    if (!(validator.test(text))) {
+      document.getElementById('error-message').innerHTML = 'Please use lowercase to enter valid email address!';
+      document.getElementById('error-message').style.visibility = 'visible';
+      document.getElementById('error-message').style.color = 'white';
+      document.getElementById('error-message').style.background = 'red';
+      document.getElementById('error-message').style.textAlign = 'center';
+      e.preventDefault();
+    }
+  };
 }
-
-function simulateFormSubmission() {
-  // Simulacija slanja podataka obrasca
-  alert('Submitted');
-  document.getElementById('form').reset(); // Resetiranje forme nakon uspješnog podnošenja
-}
+formButton.addEventListener('click', () => {
+  validate();
+});
