@@ -44,7 +44,7 @@ const array = [
     imageDesktop: 'img/rec.png',
     technologies: ['Ruby on rails', 'CSS', 'HTML'],
     technologiesdesk: ['Ruby on rails', 'HTML', 'CSS', 'Git-Hub', 'SCSS', 'Ruby', 'Git-Hub'],
-    live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
+    // live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
     source_link: 'https://github.com/djo1975/Recipe-app',
   },
   {
@@ -61,7 +61,7 @@ const array = [
     imageDesktop: 'img/Budget-app.png',
     technologies: ['Ruby on rails', 'CSS', 'HTML'],
     technologiesdesk: ['Ruby on rails', 'HTML', 'CSS', 'Git-Hub', 'SCSS', 'Ruby', 'Git-Hub'],
-    live_version: 'https://mitra-6mqk.onrender.com/',
+    // live_version: 'https://mitra-6mqk.onrender.com/',
     source_link: 'https://github.com/djo1975/Budget-app.git',
   },
   {
