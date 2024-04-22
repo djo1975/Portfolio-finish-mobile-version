@@ -1,34 +1,31 @@
 const array = [
   {
     id: '1',
-    name: 'Vespa',
-    namedesk: 'Vespa',
-    shortDescription: 'This project is designed for the reservation of fancy vespas.',
-    shortDescriptiondesk: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you.',
-    longDescription: 'This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it ',
-    longDescriptiondesk: `This project is designed for the reservation of fancy vespas. If you are preparing for a special day or event and you want a cool Vespa for it, this website is the best place for you. If you have a luxurious Vespa and want to make some extra money from it, you can add it to our website and others will be able to reserve it!
+    name: 'multyorgasmic.com',
+    namedesk: 'multyorgasmic.com',
+    shortDescription: 'The purpose of this application is to help you become multi-orgasmic.',
+    shortDescriptiondesk: 'The purpose of this application is to help you become multi-orgasmic. Below are links to explanations and simple exercises to help you achieve this. On the Exercise page, create your own routine and keep daily journals until you become multi-orgasmic. Once you finish the exercises, you become an administrator and can join the multi-orgasmic people dating app. If you are curious why I created this page, click on the Mission link.',
+    longDescription: 'The purpose of this application is to help you become multi-orgasmic. Below are links to explanations and simple exercises to help you achieve this. On the Exercise page, create your own routine and keep daily journals until you become multi-orgasmic. Once you finish the exercises, you become an administrator and can join the multi-orgasmic people dating app. If you are curious why I created this page, click on the Mission link.',
+    longDescriptiondesk: `The purpose of this application is to help you become multi-orgasmic. Below are links to explanations and simple exercises to help you achieve this. On the Exercise page, create your own routine and keep daily journals until you become multi-orgasmic. Once you finish the exercises, you become an administrator and can join the multi-orgasmic people dating app. If you are curious why I created this page, click on the Mission link.
 
-    Here are some of the benefits of using our website:
-    
-        Wide selection of Vespas to choose from
-        Competitive prices
-        Easy and convenient booking process
-        24/7 customer support
-    
-    The main features of this website are:
-    
-        Users can see details of all the Vespas.
-        Users can reserve a Vespa for a special day.
-        Users can add their own Vespas and remove them if they want to.
+    How to satisfy a woman,
+    How to Control Ejaculation,
+    How to Control Menstrual Cycle,
+    How to Solve Sexual Dysfunction,
+
+    How to Achieve Orgasm - Male,
+    How to Achieve Orgasm - Female,
+    How to Fix Erectile Dysfunction,
+    How to Clean Your Central Chanel
     `,
-    featured: ['VSC', 'Full Stack', 2023],
-    featureddesk: ['VSC', 'Full Stack', 2023],
-    image: 'img/Vespa.png',
-    imageDesktop: 'img/Vespa.png',
+    featured: ['VSC', 'Full Stack', 2024],
+    featureddesk: ['VSC', 'Full Stack', 2024],
+    image: 'img/eveevega.png',
+    imageDesktop: 'img/evega.png',
     technologies: ['Ruby on rails', 'React', 'CSS'],
     technologiesdesk: ['Ruby on rails', 'Redux', 'CSS', 'React', 'Git-Hub', 'Ruby', 'React'],
-    live_version: 'https://vespa-reservation.onrender.com',
-    source_link: 'https://github.com/djo1975/Program-Capstone',
+    live_version: 'https://multyorgasmic.com',
+    source_link: 'https://github.com/djo1975/devise-jwt',
   },
   {
     id: '2',
