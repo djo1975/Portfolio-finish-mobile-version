@@ -41,7 +41,7 @@ const array = [
     imageDesktop: 'img/recipe.png',
     technologies: ['Ruby on rails', 'CSS', 'HTML'],
     technologiesdesk: ['Ruby on rails', 'HTML', 'CSS', 'Git-Hub', 'SCSS', 'Ruby', 'Git-Hub'],
-    live_version: 'https://djo1975.github.io/Portfolio-finish-mobile-version/#/',
+    live_version: 'https://gilded-biscochitos-2d3114.netlify.app/',
     source_link: 'https://github.com/djo1975/Recipe-app',
   },
   {
